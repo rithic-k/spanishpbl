@@ -7,43 +7,43 @@ import Link from 'next/link';
 
 const futurePoints = [
   {
-    text: "Continuous investment in state-of-the-art sports infrastructure and smart stadiums.",
+    text: "Inversión continua en infraestructura deportiva de vanguardia y estadios inteligentes.",
     icon: <Zap className="h-6 w-6 text-accent flex-shrink-0 mr-3 mt-1" />
   },
   {
-    text: "Promotion of grassroots sports, ensuring accessibility and inclusion through nationwide programs.",
+    text: "Promoción del deporte base, asegurando la accesibilidad e inclusión a través de programas a nivel nacional.",
     icon: <Users className="h-6 w-6 text-accent flex-shrink-0 mr-3 mt-1" />
   },
   {
-    text: "Full adoption of emerging technologies like AI and VR to enhance athlete performance and fan engagement.",
+    text: "Adopción total de tecnologías emergentes como IA y RV para mejorar el rendimiento de los atletas y la participación de los aficionados.",
     icon: <TrendingUp className="h-6 w-6 text-accent flex-shrink-0 mr-3 mt-1" />
   },
   {
-    text: "Leading the way in sustainable sporting events and environmentally friendly club operations.",
+    text: "Liderando el camino en eventos deportivos sostenibles y operaciones de clubes respetuosas con el medio ambiente.",
     icon: <CheckCircle className="h-6 w-6 text-accent flex-shrink-0 mr-3 mt-1" />
   },
   {
-    text: "Significant expansion of eSports, integrating it further into the mainstream sports culture and economy.",
+    text: "Expansión significativa de los eSports, integrándolos aún más en la cultura y economía deportiva principal.",
     icon: <Globe className="h-6 w-6 text-accent flex-shrink-0 mr-3 mt-1" />
   },
   {
-    text: "Bidding for and hosting more major international sporting events, showcasing Spain to the world.",
+    text: "Candidaturas y organización de más eventos deportivos internacionales importantes, mostrando España al mundo.",
     icon: <Award className="h-6 w-6 text-accent flex-shrink-0 mr-3 mt-1" />
   },
   {
-    text: "Enhanced focus on women's sports, aiming for equal representation, funding, and media coverage.",
+    text: "Mayor enfoque en el deporte femenino, buscando igualdad en representación, financiación y cobertura mediática.",
     icon: <TrendingUp className="h-6 w-6 text-accent flex-shrink-0 mr-3 mt-1" />
   },
   {
-    text: "Strengthening international collaborations for sports development and knowledge exchange.",
+    text: "Fortalecimiento de colaboraciones internacionales para el desarrollo deportivo y el intercambio de conocimientos.",
     icon: <Globe className="h-6 w-6 text-accent flex-shrink-0 mr-3 mt-1" />
   },
   {
-    text: "Deepening the cultural integration of sports, using it as a tool for social cohesion and national pride.",
+    text: "Profundización de la integración cultural del deporte, utilizándolo como herramienta de cohesión social y orgullo nacional.",
     icon: <Users className="h-6 w-6 text-accent flex-shrink-0 mr-3 mt-1" />
   },
   {
-    text: "Investing in next-generation talent identification and development programs across all major sports.",
+    text: "Inversión en programas de identificación y desarrollo de talentos de próxima generación en todos los deportes principales.",
     icon: <Zap className="h-6 w-6 text-accent flex-shrink-0 mr-3 mt-1" />
   }
 ];
@@ -54,12 +54,12 @@ export function FutureSection() {
       <div className="container mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div>
-            <h2 className="text-3xl font-bold tracking-tight text-primary sm:text-4xl lg:text-5xl">The Bright Future of Spanish Sports</h2>
+            <h2 className="text-3xl font-bold tracking-tight text-primary sm:text-4xl lg:text-5xl">El Brillante Futuro de los Deportes Españoles</h2>
             <p className="mt-6 text-lg leading-8 text-muted-foreground">
-              Spain is not just resting on its laurels; it's actively shaping a dynamic and innovative future for its sports sector. The nation is committed to enhancing its global sporting influence through strategic initiatives, technological advancements, and a deep-seated passion that resonates from grassroots to elite levels.
+              España no solo se duerme en los laureles; está moldeando activamente un futuro dinámico e innovador para su sector deportivo. La nación está comprometida a mejorar su influencia deportiva global a través de iniciativas estratégicas, avances tecnológicos y una pasión profundamente arraigada que resuena desde las bases hasta los niveles de élite.
             </p>
             <p className="mt-4 text-lg leading-8 text-muted-foreground">
-              The influence of sports extends beyond the playing field, impacting tourism, economic growth, and national identity. Future plans are geared towards solidifying Spain's position as a global sports powerhouse.
+              La influencia del deporte se extiende más allá del campo de juego, impactando el turismo, el crecimiento económico y la identidad nacional. Los planes futuros están orientados a consolidar la posición de España como una potencia deportiva mundial.
             </p>
             <ul className="mt-8 space-y-4">
               {futurePoints.map((point, index) => (
@@ -71,14 +71,14 @@ export function FutureSection() {
             </ul>
             <div className="mt-10">
               <Button asChild size="lg" className="bg-accent hover:bg-accent/90 text-accent-foreground shadow-md hover:shadow-lg transition-shadow">
-                <Link href="#introduction">Back to Top ↑</Link>
+                <Link href="#introduction">Volver Arriba ↑</Link>
               </Button>
             </div>
           </div>
           <div className="relative aspect-[4/3] rounded-xl overflow-hidden shadow-2xl group">
             <Image
               src="https://picsum.photos/800/600?random=5"
-              alt="Futuristic vision of a Spanish sports complex"
+              alt="Visión futurista de un complejo deportivo español"
               layout="fill"
               objectFit="cover"
               data-ai-hint="future sports tech"
@@ -86,8 +86,8 @@ export function FutureSection() {
             />
              <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent opacity-70 group-hover:opacity-50 transition-opacity duration-300"></div>
              <div className="absolute bottom-0 left-0 p-6">
-               <h3 className="text-2xl font-semibold text-white shadow-text">Innovation in Motion</h3>
-               <p className="text-sm text-gray-200 mt-1 shadow-text">Pioneering the next era of sports excellence.</p>
+               <h3 className="text-2xl font-semibold text-white shadow-text">Innovación en Movimiento</h3>
+               <p className="text-sm text-gray-200 mt-1 shadow-text">Pioneros en la próxima era de la excelencia deportiva.</p>
              </div>
           </div>
         </div>

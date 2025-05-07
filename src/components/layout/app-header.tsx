@@ -7,9 +7,9 @@ import { Button } from '@/components/ui/button';
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
 
 const navItems = [
-  { label: 'Home', href: '#introduction' },
-  { label: 'Sports', href: '#sports' },
-  { label: 'Future', href: '#future' },
+  { label: 'Inicio', href: '#introduction' },
+  { label: 'Deportes', href: '#sports' },
+  { label: 'Futuro', href: '#future' },
 ];
 
 export function AppHeader() {
@@ -67,7 +67,7 @@ export function AppHeader() {
             <SheetTrigger asChild>
               <Button variant="ghost" size="icon">
                 <Menu className="h-6 w-6" />
-                <span className="sr-only">Open menu</span>
+                <span className="sr-only">Abrir menú</span>
               </Button>
             </SheetTrigger>
             <SheetContent side="right" className="w-full max-w-xs bg-background">

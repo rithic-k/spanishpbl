@@ -8,8 +8,8 @@ const geistSans = GeistSans;
 // const geistMono = GeistMono; // Removed
 
 export const metadata: Metadata = {
-  title: 'España Deportes - Spanish Sports Culture',
-  description: 'Explore the vibrant sports culture of Spain. An assignment by Firebase Studio.',
+  title: 'España Deportes - Cultura Deportiva Española',
+  description: 'Explora la vibrante cultura deportiva de España. Una tarea de Firebase Studio.',
 };
 
 export default function RootLayout({
@@ -18,7 +18,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${geistSans.variable}`}>
+    <html lang="es" className={`${geistSans.variable}`}>
       <body className="antialiased">
         {children}
         <Toaster />
