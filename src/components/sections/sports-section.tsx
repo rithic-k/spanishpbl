@@ -1,4 +1,6 @@
-import { Futbol, Basketball } from 'lucide-react';
+
+
+import { Goal, Dribbble, Bike } from 'lucide-react'; // Changed Football to Goal
 import { SportCard } from '@/components/common/sport-card';
 import { TennisIcon } from '@/components/icons/tennis-icon';
 import { AnimatedSection } from '@/components/ui/animated-section';
@@ -7,7 +9,7 @@ const sportsData = [
   {
     title: 'Fútbol',
     description: 'El fútbol es el deporte rey en España, con una liga de renombre mundial (LaLiga) y equipos icónicos como el Real Madrid y el FC Barcelona. La selección nacional también ha cosechado grandes éxitos internacionales.',
-    icon: <Futbol className="h-6 w-6" />,
+    icon: <Goal className="h-6 w-6" />,
     imageUrl: 'https://picsum.photos/400/300?random=1',
     imageAlt: 'Estadio de fútbol en España',
     imageHint: 'football stadium',
@@ -23,7 +25,7 @@ const sportsData = [
   {
     title: 'Baloncesto',
     description: 'El baloncesto goza de gran popularidad, con la Liga ACB considerada una de las mejores de Europa. La selección española de baloncesto ha logrado múltiples campeonatos mundiales y europeos.',
-    icon: <Basketball className="h-6 w-6" />,
+    icon: <Dribbble className="h-6 w-6" />,
     imageUrl: 'https://picsum.photos/400/300?random=3',
     imageAlt: 'Partido de baloncesto en España',
     imageHint: 'basketball game',
@@ -31,7 +33,7 @@ const sportsData = [
   {
     title: 'Ciclismo',
     description: 'El ciclismo tiene una rica historia en España, con la Vuelta a España como una de las tres Grandes Vueltas. El país cuenta con terrenos montañosos desafiantes que atraen a ciclistas de todo el mundo.',
-    icon: <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-bike h-6 w-6"><path d="M12 17.5V14l-3-3 4-3 2 3h2"/><circle cx="17" cy="5.5" r="2.5"/><circle cx="6" cy="18.5" r="2.5"/></svg>,
+    icon: <Bike className="h-6 w-6" />,
     imageUrl: 'https://picsum.photos/400/300?random=4',
     imageAlt: 'Ciclistas en una carretera de montaña española',
     imageHint: 'cycling mountain',
@@ -67,3 +69,4 @@ export function SportsSection() {
     </AnimatedSection>
   );
 }
+
