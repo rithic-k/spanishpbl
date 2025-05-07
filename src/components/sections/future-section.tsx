@@ -5,11 +5,11 @@ import { CheckCircle } from 'lucide-react';
 import Link from 'next/link';
 
 const futurePoints = [
-  "Inversión continua en infraestructuras deportivas modernas.",
-  "Fomento del deporte base y la inclusión a través de programas nacionales.",
-  "Adopción de nuevas tecnologías para mejorar el rendimiento y la experiencia del espectador.",
-  "Creciente enfoque en la sostenibilidad en eventos y organizaciones deportivas.",
-  "Expansión de la presencia de eSports y su integración en la cultura deportiva."
+  "Continuous investment in modern sports infrastructure.",
+  "Promotion of grassroots sports and inclusion through national programs.",
+  "Adoption of new technologies to improve performance and spectator experience.",
+  "Growing focus on sustainability in sporting events and organizations.",
+  "Expansion of eSports presence and its integration into sports culture."
 ];
 
 export function FutureSection() {
@@ -18,10 +18,10 @@ export function FutureSection() {
       <div className="container mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div>
-            <h2 className="text-3xl font-bold tracking-tight text-primary sm:text-4xl">El Futuro del Deporte Español</h2>
+            <h2 className="text-3xl font-bold tracking-tight text-primary sm:text-4xl">The Future of Spanish Sports</h2>
             <p className="mt-6 text-lg leading-8 text-muted-foreground">
-              España no solo celebra su rica herencia deportiva, sino que también mira hacia un futuro prometedor.
-              Con una combinación de tradición, innovación y una pasión inquebrantable, el deporte español está preparado para alcanzar nuevas cotas de excelencia y participación global.
+              Spain not only celebrates its rich sporting heritage but also looks towards a promising future.
+              With a combination of tradition, innovation, and unwavering passion, Spanish sports are poised to reach new heights of excellence and global participation.
             </p>
             <ul className="mt-8 space-y-3">
               {futurePoints.map((point, index) => (
@@ -33,14 +33,14 @@ export function FutureSection() {
             </ul>
             <div className="mt-10">
               <Button asChild size="lg" className="bg-accent hover:bg-accent/90 text-accent-foreground">
-                <Link href="#introduction">Volver al Inicio</Link>
+                <Link href="#introduction">Back to Top</Link>
               </Button>
             </div>
           </div>
           <div className="relative aspect-video rounded-xl overflow-hidden shadow-2xl">
             <Image
               src="https://picsum.photos/600/400?random=5"
-              alt="Visión futurista de un estadio español"
+              alt="Futuristic vision of a Spanish stadium"
               layout="fill"
               objectFit="cover"
               data-ai-hint="future stadium"
@@ -52,3 +52,4 @@ export function FutureSection() {
     </AnimatedSection>
   );
 }
+

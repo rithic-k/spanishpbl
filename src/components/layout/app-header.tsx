@@ -7,9 +7,9 @@ import { Button } from '@/components/ui/button';
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
 
 const navItems = [
-  { label: 'Inicio', href: '#introduction' },
-  { label: 'Deportes', href: '#sports' },
-  { label: 'Futuro', href: '#future' },
+  { label: 'Home', href: '#introduction' },
+  { label: 'Sports', href: '#sports' },
+  { label: 'Future', href: '#future' },
 ];
 
 export function AppHeader() {
@@ -86,3 +86,4 @@ export function AppHeader() {
     </header>
   );
 }
+

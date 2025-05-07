@@ -22,20 +22,21 @@ export function IntroductionSection() {
       <div className="relative z-10 container mx-auto max-w-3xl px-4 py-16 sm:px-6 lg:px-8">
         <h1 className="text-4xl font-extrabold tracking-tight sm:text-5xl md:text-6xl">
           <span className="block text-primary">España Deportes:</span>
-          <span className="block text-foreground">Pasión y Cultura</span>
+          <span className="block text-foreground">Passion and Culture</span>
         </h1>
         <p className="mt-6 max-w-xl mx-auto text-lg text-muted-foreground sm:text-xl md:text-2xl">
-          Descubre la vibrante cultura deportiva de España, un país donde el deporte es más que un juego: es una forma de vida.
+          Discover the vibrant sports culture of Spain, a country where sport is more than just a game: it's a way of life.
         </p>
         <div className="mt-10 flex justify-center space-x-4">
           <Button asChild size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground">
-            <Link href="#sports">Explorar Deportes</Link>
+            <Link href="#sports">Explore Sports</Link>
           </Button>
           <Button asChild variant="outline" size="lg" className="border-accent text-accent hover:bg-accent/10">
-            <Link href="#future">Ver Futuro</Link>
+            <Link href="#future">See Future</Link>
           </Button>
         </div>
       </div>
     </AnimatedSection>
   );
 }
+
